@@ -14,16 +14,6 @@
 --         gr <n>             set gains Y-axis half-range RPM (now 15)
 --    4. Ctrl+T to stop
 --
---  WIRING THE WIZARD
---  ---------------------------------------------------------------
---  When the wizard asks for "Motor FL", type the peripheral name
---  of the rotor PHYSICALLY at the front-left of your ship.  The
---  RSC 1/2/3/4 defaults are just suggestions -- if your front-left
---  rotor is actually "RSC 4" in-game, type RSC 4 at the FL prompt.
---
---  IMPORTANT: delete /6flatgraph_cfg.lua before first run with
---  this version, otherwise it reuses the old peripheral mapping.
---
 --  QUICK TUNING
 --  ---------------------------------------------------------------
 --  Barely reacts to tilt        -> raise kP
@@ -165,10 +155,6 @@ local function wizard()
     for _, s in ipairs({"top","bottom","left","right","front","back"}) do
         sugg[#sugg+1] = s
     end
-    print("")
-    print("Type the peripheral name of the rotor PHYSICALLY at each")
-    print("position.  RSC defaults are just suggestions.")
-    print("")
 
     local function ask(label, def)
         io.write(string.format("  %-22s [%s]: ", label, def))
