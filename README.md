@@ -1,2 +1,2 @@
 # Ales-s_Controllers
-My batch of controllers in LUA for aircraft
+Repository for storing and sharing all the controllers I make for my builds.
