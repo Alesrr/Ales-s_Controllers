@@ -3,6 +3,7 @@
 --  Keeps the craft level at 0 pitch and 0 roll.
 --
 --  USAGE:
+--    0. DOWNLOAD CC: SABLE ALONG WITH CC: TWEAKED!!
 --    1. Copy to computer root as 6flatgraph.lua  ->  run: 6flatgraph
 --    2. Setup wizard lists peripherals and saves config
 --    3. While running:
